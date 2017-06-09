@@ -1,27 +1,94 @@
-import java.util.Scanner;
-
-public class MyClass {
-
-	public static void main(String[] args) {
-		Scanner scan = new Scanner(System.in);
-		
-		System.out.println("enter a number");
-		int number = scan.nextInt();
-		System.out.println("entered number is");
-		System.out.print(number);
-		int r,sum =0,temp;
-		temp = number;
-		while(number>0) {
-			r=number%10;
-			sum = (sum*10)+r;
-			number=number/10;
-			
-		}
-		if(temp==sum){
-			System.out.println("\npalindrome");
-			
-		}else
-			System.out.println("\nNot palindrome");		
-	}
-
-}
+        <div class="resultsPanel" style="display: block; padding: 0px 8px;">
+            <div class="rsuite-search-actions"></div>
+            <h3>9 Results</h3>
+            <div class="results">
+               <div class="container wordsearch" searchid="10053784">
+                  <div treescope="searchResults" class="tree rsuiteDraggableParent" uri="/">
+                     <ul>
+                        <li class="closed" isexpandable="true" ntype="mo" nid="6745228" uri="mo:6745228" refuri="/mo:6745228/" refid="6745228" ext="" name="ffi016.chl" checkout="0" qname="procedure" issearchresult="true" moid="6745228" query="">
+                           <div class="node mo hit">
+                              <div class="hitLabel1" title=""><span class="toggle">&nbsp;</span><span class="icon"><span class="icon-status"></span></span><span class="label"><span class="nodeName">ffi016.chl &lt;procedure&gt; (ID: 6745228)</span></span></div>
+                           </div>
+                        </li>
+                     </ul>
+                  </div>
+                  <div treescope="searchResults" class="tree rsuiteDraggableParent" uri="/">
+                     <ul>
+                        <li class="closed" isexpandable="true" ntype="mo" nid="6745216" uri="mo:6745216" refuri="/mo:6745216/" refid="6745216" ext="" name="ffi015.chl" checkout="0" qname="procedure" issearchresult="true" moid="6745216" query="">
+                           <div class="node mo hit">
+                              <div class="hitLabel1" title=""><span class="toggle">&nbsp;</span><span class="icon"><span class="icon-status"></span></span><span class="label"><span class="nodeName">ffi015.chl &lt;procedure&gt; (ID: 6745216)</span></span></div>
+                           </div>
+                        </li>
+                     </ul>
+                  </div>
+                  <div treescope="searchResults" class="tree rsuiteDraggableParent" uri="/">
+                     <ul>
+                        <li class="closed" isexpandable="true" ntype="mo" nid="4265220" uri="mo:4265220" refuri="/mo:4265220/" refid="4265220" ext="" name="ffi005.chl" checkout="0" qname="procedure" issearchresult="true" moid="4265220" query="">
+                           <div class="node mo hit">
+                              <div class="hitLabel1" title=""><span class="toggle">&nbsp;</span><span class="icon"><span class="icon-status"></span></span><span class="label"><span class="nodeName">ffi005.chl &lt;procedure&gt; (ID: 4265220)</span></span></div>
+                           </div>
+                        </li>
+                     </ul>
+                  </div>
+                  <div treescope="searchResults" class="tree rsuiteDraggableParent" uri="/">
+                     <ul>
+                        <li class="closed" isexpandable="true" ntype="mo" nid="4265188" uri="mo:4265188" refuri="/mo:4265188/" refid="4265188" ext="" name="ffi004.chl" checkout="0" qname="procedure" issearchresult="true" moid="4265188" query="">
+                           <div class="node mo hit">
+                              <div class="hitLabel1" title=""><span class="toggle">&nbsp;</span><span class="icon"><span class="icon-status"></span></span><span class="label"><span class="nodeName">ffi004.chl &lt;procedure&gt; (ID: 4265188)</span></span></div>
+                           </div>
+                        </li>
+                     </ul>
+                  </div>
+                  <div treescope="searchResults" class="tree rsuiteDraggableParent" uri="/">
+                     <ul>
+                        <li class="closed" isexpandable="true" ntype="mo" nid="4895923" uri="mo:4895923" refuri="/mo:4895923/" refid="4895923" ext="" name="ffi007.chl" checkout="0" qname="procedure" issearchresult="true" moid="4895923" query="">
+                           <div class="node mo hit">
+                              <div class="hitLabel1" title=""><span class="toggle">&nbsp;</span><span class="icon"><span class="icon-status"></span></span><span class="label"><span class="nodeName">ffi007.chl &lt;procedure&gt; (ID: 4895923)</span></span></div>
+                           </div>
+                        </li>
+                     </ul>
+                  </div>
+                  <div treescope="searchResults" class="tree rsuiteDraggableParent" uri="/">
+                     <ul>
+                        <li class="closed" isexpandable="true" ntype="mo" nid="4895928" uri="mo:4895928" refuri="/mo:4895928/" refid="4895928" ext="" name="ffi008.chl" checkout="0" qname="procedure" issearchresult="true" moid="4895928" query="">
+                           <div class="node mo hit">
+                              <div class="hitLabel1" title=""><span class="toggle">&nbsp;</span><span class="icon"><span class="icon-status"></span></span><span class="label"><span class="nodeName">ffi008.chl &lt;procedure&gt; (ID: 4895928)</span></span></div>
+                           </div>
+                        </li>
+                     </ul>
+                  </div>
+                  <div treescope="searchResults" class="tree rsuiteDraggableParent" uri="/">
+                     <ul>
+                        <li class="closed" isexpandable="true" ntype="mo" nid="4520907" uri="mo:4520907" refuri="/mo:4520907/" refid="4520907" ext="" name="fct008.dia" checkout="0" qname="procedure" issearchresult="true" moid="4520907" query="">
+                           <div class="node mo hit">
+                              <div class="hitLabel1" title=""><span class="toggle">&nbsp;</span><span class="icon"><span class="icon-status"></span></span><span class="label"><span class="nodeName">fct008.dia &lt;procedure&gt; (ID: 4520907)</span></span></div>
+                           </div>
+                        </li>
+                     </ul>
+                  </div>
+                  <div treescope="searchResults" class="tree rsuiteDraggableParent" uri="/">
+                     <ul>
+                        <li class="closed" isexpandable="true" ntype="mo" nid="6127633" uri="mo:6127633" refuri="/mo:6127633/" refid="6127633" ext="" name="fwp049.rep" checkout="0" qname="procedure" issearchresult="true" moid="6127633" query="">
+                           <div class="node mo hit">
+                              <div class="hitLabel1" title=""><span class="toggle">&nbsp;</span><span class="icon"><span class="icon-status"></span></span><span class="label"><span class="nodeName">fwp049.rep &lt;procedure&gt; (ID: 6127633)</span></span></div>
+                           </div>
+                        </li>
+                     </ul>
+                  </div>
+                  <div treescope="searchResults" class="tree rsuiteDraggableParent" uri="/">
+                     <ul>
+                        <li class="closed" isexpandable="true" ntype="mo" nid="6468975" uri="mo:6468975" refuri="/mo:6468975/" refid="6468975" ext="" name="fwp057.rep" checkout="0" qname="procedure" issearchresult="true" moid="6468975" query="">
+                           <div class="node mo hit">
+                              <div class="hitLabel1" title=""><span class="toggle">&nbsp;</span><span class="icon"><span class="icon-status"></span></span><span class="label"><span class="nodeName">fwp057.rep &lt;procedure&gt; (ID: 6468975)</span></span></div>
+                           </div>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="pagination" style="display:none"></div>
+      </div>
+   </div>
+   <div class="bottom"><b class="xb7"></b><b class="xb6"></b><b class="xb5"></b><b class="xb4"></b><b class="xb3"></b><b class="xb2"></b><b class="xb1"></b></div>
+</div>
